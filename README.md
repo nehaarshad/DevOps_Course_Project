@@ -1,4 +1,6 @@
 first commit by team leader Neha Arshad
+changing the title of html file 
+changing the case of html files
 
 # Getting Started with Create React App
 
