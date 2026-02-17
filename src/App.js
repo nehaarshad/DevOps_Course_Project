@@ -11,13 +11,17 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
         </a>
       </header>
+      <body>
+        <h1>Welcome to my React App!</h1>
+        <p>This is a simple React application.</p>
+      </body>
     </div>
   );
 }
