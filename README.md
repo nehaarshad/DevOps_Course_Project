@@ -1,9 +1,11 @@
 first commit by team leader Neha Arshad
+
 <<<<<<< HEAD
 changing the title of html file 
 changing the case of html files
 =======
 second commit by Hafsa Sarfaraz
+Third commit by Areej Fatima
 >>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
 removing the  font from the index file 
 # Getting Started with Create React App
