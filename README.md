@@ -8,6 +8,7 @@ second commit by Hafsa Sarfaraz
 Third commit by Areej Fatima
 >>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
 removing the  font from the index file 
+Momina chnaged the background color from white to light green in App.css
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
