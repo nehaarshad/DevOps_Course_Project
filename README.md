@@ -5,7 +5,7 @@ changing the case of html files
 =======
 second commit by Hafsa Sarfaraz
 >>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
-
+removing the  font from the index file 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
