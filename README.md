@@ -1,3 +1,6 @@
+Simple react-app 
+
+
 first commit by team leader Neha Arshad
 
 <<<<<<< HEAD
