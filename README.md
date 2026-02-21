@@ -1,17 +1,18 @@
-Simple react-app 
+Simple blogging web react-app 
 
 
 first commit by team leader Neha Arshad
 
-<<<<<<< HEAD
+
 changing the title of html file 
 changing the case of html files
 =======
 second commit by Hafsa Sarfaraz
 Third commit by Areej Fatima
->>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
+
 removing the  font from the index file 
 Momina chnaged the background color from white to light green in App.css
+ HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -85,3 +86,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Contribution by Iram
 - Worked on feature-iram branch
 - Practiced GitHub collaboration
+
