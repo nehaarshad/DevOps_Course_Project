@@ -25,7 +25,7 @@ function App() {
       </header>
 
       <div>
-        <h1>Welcome to my React App!</h1>
+        <h1 style={{marginTop: "10px"}}>Welcome to my React App!</h1>
         
       </div>
 
