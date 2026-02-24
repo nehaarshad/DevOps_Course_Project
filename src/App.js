@@ -31,9 +31,14 @@ function App() {
 
       
       <div style={{ marginTop: "30px" }}>
+        {/* Like Button Feature */}
+        likes: 0
+        <button onClick={handleLike}>Like</button>
+          <p>{likes} Likes</p>
+
+
         <h2>Team Member: Valeej</h2>
         <p>Simple Counter Feature Added</p>
-
         <button onClick={() => setCount(count + 1)}>
           Click Count: {count}
         </button>
