@@ -25,15 +25,20 @@ function App() {
       </header>
 
       <div>
-        <h1>Welcome to my React App!</h1>
+        <h1 style={{marginTop: "10px"}}>Welcome to my React App!</h1>
         
       </div>
 
       
       <div style={{ marginTop: "30px" }}>
+        {/* Like Button Feature */}
+        likes: 0
+        <button onClick={handleLike}>Like</button>
+          <p>{likes} Likes</p>
+
+
         <h2>Team Member: Valeej</h2>
         <p>Simple Counter Feature Added</p>
-
         <button onClick={() => setCount(count + 1)}>
           Click Count: {count}
         </button>
