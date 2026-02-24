@@ -12,6 +12,12 @@ Third commit by Areej Fatima
 >>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
 removing the  font from the index file 
 Momina chnaged the background color from white to light green in App.css
+Installation Steps: 
+First clone the repository>
+Clone repository git clone https://github.com/nehaarshad/DevOps_Course_Project.git
+Go to project folder: cd DevOps_Course_Project
+Install Dependencies: npm install
+Run Project: npm start
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
