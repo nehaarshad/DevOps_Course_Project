@@ -1,0 +1,38 @@
+.git
+node_modules
+.env
+README.md
+build/
+*.md
+.gitignore
+
+FROM node:18-alpine AS build        # Use Node.js v18 on Alpine Linux as the base image for building the React app. 'AS build' names this stage.
+WORKDIR /myApp                      # Set the working directory inside the container to /myApp.
+COPY package*.json ./               # Copy package.json and package-lock.json (if present) into the container for dependency installation.
+COPY . .                            # Copy all project files from your local machine into the containers /myApp directory.
+RUN npm install                     # Install all dependencies listed in package.json.
+EXPOSE 3000                         # Expose port 3000 (React development server runs here).
+CMD ["npm", "start"]                # Default command to start the React development server.
+
+FROM nginx:stable-alpine AS production   # Use stable Nginx on Alpine Linux as the base image for production. 'AS production' names this stage.
+WORKDIR /usr/share/nginx/html            # Set the working directory to Nginxs default static file directory.
+COPY --from=build /myApp/build /usr/share/nginx/html   # Copy the compiled React build files from the build stage into Nginx’s serving directory.
+EXPOSE 80                                # Expose port 80 (default HTTP port for serving the app).
+CMD [ "nginx", "-g", "daemon off;" ]     # Run Nginx in the foreground to serve the React app.
+
+
+Build Stage (node:18-alpine)
+
+Installs dependencies.
+
+Builds the React app into static files (/myApp/build).
+
+Lightweight Alpine base keeps the image small.
+
+Production Stage (nginx:stable-alpine)
+
+Copies only the built static files (not source code or dev dependencies).
+
+Uses Nginx to serve the app efficiently.
+
+Runs on port 80, ready for deployment.
