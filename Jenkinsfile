@@ -43,13 +43,12 @@ pipeline {
                     credentialsId: 'railwayToken',
                     variable: 'RAILWAY_TOKEN'
                 )]) {
-                    sh """
-                        export RAILWAY_TOKEN=${RAILWAY_TOKEN}
-                        railway redeploy \
-                            --project-id ${RAILWAY_PROJECT} \
-                            --service-id ${RAILWAY_SERVICE} \
-                            --yes
-                    """
+                     sh """
+                curl -s -X POST https://backboard.railway.app/graphql/v2 \
+                -H "Content-Type: application/json" \
+                -H "Authorization: Bearer ${RAILWAY_TOKEN}" \
+                -d '{"query":"mutation { serviceInstanceRedeploy(environmentId: \\"YOUR_ENV_ID\\", serviceId: \\"YOUR_SERVICE_ID\\") }"}' 
+            """
                 }
             }
         }
