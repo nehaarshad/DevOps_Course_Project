@@ -1,84 +1,43 @@
-Simple react-app 
+Thid project is based on Simple blogging web react-app 
+In this project,  blog management system built using Sequelize ORM package. The system consists of three tables: Users, Blogs, and Comments, with relationships between them.
 
+###Features
+
+#Users
+
+Display details of all users along with their posts and comments on each blog
+Search for a user with their details of blog and comments
+Delete, update, and create new users by providing their ID
+
+#Blogs
+
+Display details of all blogs along with their comments by providing user ID
+Search for a user's blog with its details of blog and comments by providing user and blog ID
+Delete, update, and create new blogs by providing user and blog ID
+
+#Comments
+
+Display details of all comments by providing user ID and blog ID
+Search for a comment on a user's blog by providing user, blog, and comment ID
+Delete, update, and create new comments by providing user, blog, and comment ID
+
+#Relationships
+
+Users have many Blogs (one-to-many)
+Blogs belong to one User (one-to-one)
+Comments belong to one Blog and one User (one-to-one)
 
 first commit by team leader Neha Arshad
 
-<<<<<<< HEAD
+
 changing the title of html file 
 changing the case of html files
 =======
 second commit by Hafsa Sarfaraz
 Third commit by Areej Fatima
->>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
+
 removing the  font from the index file 
 Momina chnaged the background color from white to light green in App.css
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
