@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE    = "nehaarshad/devops_project_app"
         DOCKER_TAG      = "latest"
         RAILWAY_PROJECT = "577c7468-27b1-45bf-bd3e-51a1323c1879"
-        RAILWAY_SERVICE = "d55383a9-3bfb-4475-b903-f55bb8876385/variables?environmentId=b82aa0ea-605b-4a9b-ac01-bd0dfccf6ca8"
+        RAILWAY_SERVICE = "9ab78a05-cd3c-4e7e-a83a-0e9d900730e3?environmentId=b82aa0ea-605b-4a9b-ac01-bd0dfccf6ca8"
     }
 
     stages {
