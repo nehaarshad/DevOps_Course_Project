@@ -1,89 +1,92 @@
-Simple blogging web react-app 
+# Simple Blogging Web App
 
+This project is a simple blogging web application built using React and Sequelize ORM.  
+It implements a blog management system with Users, Blogs, and Comments, including relationships between them.
 
-first commit by team leader Neha Arshad
+---
 
+## Features
 
-changing the title of html file 
-changing the case of html files
-=======
-second commit by Hafsa Sarfaraz
-Third commit by Areej Fatima
+### Users
+- Display all users with their blogs and comments
+- Search user with blog and comment details
+- Create, update, and delete users
 
-removing the  font from the index file 
-Momina chnaged the background color from white to light green in App.css
- HEAD
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Blogs
+- Display all blogs with comments (by user ID)
+- Search blogs using user ID and blog ID
+- Create, update, and delete blogs
 
-## Available Scripts
+---
+
+### Comments
+- Display comments using user ID and blog ID
+- Search comment using user, blog, and comment ID
+- Create, update, and delete comments
+
+---
+
+##  Relationships
+- One User → Many Blogs (one-to-many)
+- One Blog → One User
+- Comments belong to both User and Blog
+
+---
+
+##  CI/CD Pipeline
+This project uses GitHub Actions to automate:
+- Building Docker images
+- Pushing images to Docker Hub
+- Deploying application to AWS EC2
+
+---
+
+## ▶Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in development mode  
+Open http://localhost:3000
 
 ### `npm run build`
+Builds the app for production
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm test`
+Runs tests in watch mode
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##  Deployment
+- Docker image is built automatically using GitHub Actions
+- Image is pushed to Docker Hub
+- Application is deployed on AWS EC2
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Changelog
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Initial project setup by Neha Arshad
+- Updated README and CI/CD pipeline by Hafsa Sarfaraz
+- Contributions by Areej Fatima and Momina
+- UI improvements and styling updates
+- Added Docker and GitHub Actions integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Team Contributions
 
-## Learn More
+- Neha Arshad – Project initialization
+- Hafsa Sarfaraz – CI/CD and documentation
+- Areej Fatima – Development contributions
+- Momina – UI improvements (background color)
+- Iram – GitHub collaboration and feature branch work
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-## Contribution by Iram
-- Worked on feature-iram branch
-- Practiced GitHub collaboration
-
+##  Proof of Deployment
+- GitHub Actions pipeline executed successfully
+- Docker image pushed to Docker Hub
+- Application deployed on AWS EC2
