@@ -83,7 +83,7 @@ Runs tests in watch mode
 - Areej Fatima – Development contributions
 - Momina – UI improvements (background color)
 - Iram – GitHub collaboration and feature branch work
-
+- valeeja - CI/CD pipeline setup and Docker integration
 ---
 
 ##  Proof of Deployment
