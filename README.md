@@ -5,9 +5,26 @@ testing ci-cd.yaml
 This project is a simple blogging web application built using React and Sequelize ORM.  
 It implements a blog management system with Users, Blogs, and Comments, including relationships between them.
 
----
+second commit by Hafsa Sarfaraz
+Third commit by Areej Fatima
+removing the  font from the index file 
+Momina chnaged the background color from white to light green in App.css
+# Getting Started with Create React App
 
-## Features
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deliverable 5: Container Orchestration with Minikube
+
+### Steps to Run and Deploy
+1. **Start Minikube:** 
+   `minikube start`
+2. **Apply Kubernetes Configurations:**
+   - Run `kubectl apply -f k8s/deployment.yml` to create the deployment.
+   - Run `kubectl apply -f k8s/service.yml` to expose the application.
+3. **Verify Status:**
+   - Check nodes: `kubectl get nodes`
+   - Check pods: `kubectl get pods`
+4. **Access the Application:**
+   - Use the command `minikube service devops-project-service` to get the URL and open the app in the browser.
 
 ### Users
 - Display all users with their blogs and comments
