@@ -24,6 +24,14 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. **Access the Application:**
    - Use the command `minikube service devops-project-service` to get the URL and open the app in the browser.
 
+### Deliverable 5 Proofs
+**1. Kubernetes Pods Status:**
+![Pods Status](./kubectl%20get%20pods.jpg)
+
+**2. Application Running via Minikube:**
+![App Running](./successfully%20deploy%20image.PNG)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
