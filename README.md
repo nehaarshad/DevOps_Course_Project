@@ -26,10 +26,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. **Access the Application:**
    - Use the command `minikube service devops-project-service` to get the URL and open the app in the browser.
 
-### Users
-- Display all users with their blogs and comments
-- Search user with blog and comment details
-- Create, update, and delete users
+### Deliverable 5 Proofs
+**1. Kubernetes Pods Status:**
+![Pods Status](./pods.jpg)
+
+**2. Application Running via Minikube:**
+![App Running](./app.png)
+
+
+
+## Available Scripts
 
 ---
 
