@@ -3,18 +3,26 @@ Simple react-app
 
 first commit by team leader Neha Arshad
 
-<<<<<<< HEAD
-changing the title of html file 
-changing the case of html files
-=======
 second commit by Hafsa Sarfaraz
 Third commit by Areej Fatima
->>>>>>> 007f702d14668d0257c695592ed52f39ccac7c30
 removing the  font from the index file 
 Momina chnaged the background color from white to light green in App.css
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deliverable 5: Container Orchestration with Minikube
+
+### Steps to Run and Deploy
+1. **Start Minikube:** 
+   `minikube start`
+2. **Apply Kubernetes Configurations:**
+   - Run `kubectl apply -f k8s/deployment.yml` to create the deployment.
+   - Run `kubectl apply -f k8s/service.yml` to expose the application.
+3. **Verify Status:**
+   - Check nodes: `kubectl get nodes`
+   - Check pods: `kubectl get pods`
+4. **Access the Application:**
+   - Use the command `minikube service devops-project-service` to get the URL and open the app in the browser.
 
 ## Available Scripts
 
